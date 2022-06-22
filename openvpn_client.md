@@ -1,10 +1,8 @@
-# OpenVPN全流量转发配置
+# OpenVPN全流量转发配
 
 ---
 
-author: "梅刚"
-
-date: "2022-06-22"
+梅刚 2022-06-22
 
 ---
 
@@ -36,7 +34,7 @@ push "redirect-gateway def1"
 
 和
 
-``` push "redirect-gateway local def1"
+``` 
 push "redirect-gateway local def1"
 ```
 

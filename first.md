@@ -1,4 +1,13 @@
 # 一次springboot事物bug的处理
+
+---
+
+信常华 2018
+
+---
+
+
+
 工作需要将一条数据分别存入es(Elasticsearch)和mysql, 实现方法是: 在 springboot框架里面用@Transactional注解应用的方法保证事物.
 
 抄一条事物的解释:
